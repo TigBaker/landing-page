@@ -6,7 +6,7 @@ body {
 
 
 
-.section1 {
+.top {
     background-color: #1f2937;
     margin: 0;
     padding: 0;
@@ -16,6 +16,8 @@ h1 {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
+    margin: 0;
+    padding: 0;
 } 
 
 ul {
@@ -30,12 +32,7 @@ ul {
     font-size: 24px;
     color: #f9faf8;
     display: flex;
-    justify-content: space-between;
-    padding-left: 18px;
-}
-
-.links {
-    padding-right: 18px;
+    justify-content: space-around;
 }
 
 .hero-text p {
@@ -54,4 +51,22 @@ button {
     background-color: #3882f6;
     border-radius: 8px;
     color: white;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.hero-text {
+    width: 400px;
+}
+
+img {
+    height: 200px;
+    width: auto;
 }
