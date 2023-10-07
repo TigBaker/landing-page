@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
     font-family: Roboto, sans-serif;
     margin: 0;
 }
 
-
+/* CSS for the header and hero-text message */
 
 .top {
     background-color: #1f2937;
@@ -70,3 +71,4 @@ img {
     height: 200px;
     width: auto;
 }
+
