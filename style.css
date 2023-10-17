@@ -5,12 +5,17 @@ body {
     margin: 0;
 }
 
-/* CSS for the header and hero-text message */
+button:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
 
+footer,
 .top {
     background-color: #1f2937;
 }
 
+/* CSS for the header and hero-text message */
 .logo {
     font-size: 24px;
     font-weight: 600;
@@ -59,17 +64,13 @@ a {
     font-weight: bold;
 }
 
-.button1:hover {
-    cursor: pointer;
-}
-
 .main {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 100px;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
 }
 
 .hero-text {
@@ -83,7 +84,6 @@ a {
 }
 
 /* CSS for random information section */
-
 .info-title {
     font-size: 36px;
     font-weight: 900;
@@ -110,7 +110,6 @@ a {
 }
 
 /* CSS for section 3 the quote */
-
 .quote-section {
     background-color: #E5E7EB;
 }
@@ -118,8 +117,8 @@ a {
 .quote-container {
     width: 50%;
     margin: 0 auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 .main-quote {
@@ -138,7 +137,6 @@ a {
 }
 
 /*section 4*/
-
 .final-container {
     width: 900px;
     height: 125px;
@@ -149,8 +147,6 @@ a {
     color: white;
     justify-content: space-around;
     align-items: center;
-
-
 }
 
 .fourth-header {
@@ -178,7 +174,13 @@ a {
     padding: 5px 25px;
 }
 
-button:hover {
-    cursor: pointer;
-    opacity: 0.5;
+/*footer*/
+footer {
+    text-align: center;
+    padding: 5px;
+}
+
+.footer-text {
+    color: wheat;
+    margin-bottom: 12px;
 }
