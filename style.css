@@ -141,10 +141,10 @@ a {
 
 .final-container {
     width: 900px;
-    height: 150px;
+    height: 125px;
     background-color: #3882f6;
-    margin: 50px auto;
-    border-radius: 2px;
+    margin: 75px auto;
+    border-radius: 5px;
     display: flex;
     color: white;
     justify-content: space-around;
